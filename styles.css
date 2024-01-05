@@ -5,3 +5,13 @@
 .facilities{
   width: 325px;
 }
+
+.btn-products,
+.btn-submit {
+  background-color: #9353FF;
+}
+
+.icon,
+.icon-info {
+  color: #daff01;
+}

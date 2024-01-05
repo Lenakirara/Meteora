@@ -5,17 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
   <title>Meteora</title>
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md bg-body-tertiary">
+  <nav class="navbar navbar-expand-md bg-black navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Meteora</a>
+      <a class="navbar-brand" href="#">
+        <h1><img src="./assets/logo-meteora.png" alt="logo loja meteora"></h1>
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,8 +39,8 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Digite o produto" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
+          <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto" aria-label="Search">
+          <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
         </form>
       </div>
     </div>
@@ -54,42 +57,37 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First
-            slide</text>
-        </svg>
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/banner1-mobile.png"
+          alt="Modelo feminina blusa rosa, em fundo lilás">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner1-tablet.png"
+          alt="Modelo feminina blusa rosa, em fundo lilás">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/banner1-desktop.png"
+          alt="Modelo feminina blusa rosa, em fundo lilás">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second
-            slide</text>
-        </svg>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/banner2-mobile.png"
+          alt="Modelo Feminina conjunto esportivo preto e oculos escuros, em um fundo rosa">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner2-tablet.png"
+          alt="Modelo Feminina conjunto esportivo preto e oculos escuros, em um fundo rosa">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/banner2-desktop.png"
+          alt="Modelo Feminina conjunto esportivo preto e oculos escuros, em um fundo rosa">
+        <div class="carousel-caption">
+          <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+          <p class="fs-4">Estilo e qualidade para durar.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-          xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-          preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third
-            slide</text>
-        </svg>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/banner3-mobile.png"
+          alt="Modelo masculino camisa branca, gravata borboleta preta, casco cinza claro, oculos de grau, em fundo laranja">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/banner3-tablet.png"
+          alt="Modelo masculino camisa branca, gravata borboleta preta, casco cinza claro, oculos de grau, em fundo laranja">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/banner3-desktop.png"
+          alt="Modelo masculino camisa branca, gravata borboleta preta, casco cinza claro, oculos de grau, em fundo laranja">
+        <div class="carousel-caption">
+          <h5 class="fs-1">COLEÇÃO ATEMPORAL</h5>
+          <p class="fs-4">Alto impacto visual, baixo impacto ambiental!</p>
         </div>
       </div>
     </div>
@@ -103,7 +101,7 @@
     </button>
   </div>
 
-  <h2 class="text-center">Buscar por categoria:</h2>
+  <h2 class="text-center my-3 my-xl-5">Buscar por categoria:</h2>
   <div class="container row mx-auto g-4">
     <div class="col-6 col-md-4 col-xxl-2">
       <div class="card">
@@ -190,7 +188,7 @@
     </div>
   </div>
 
-  <h2 class="text-center">Produtos que estão bombando!</h2>
+  <h2 class="container text-center my-3 my-xl-5">Produtos que estão bombando!</h2>
   <div class="container row mx-auto">
     <div class="col-12 col-md-6 col-xxl-4 pb-4">
       <div class="card">
@@ -201,13 +199,12 @@
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
         <div class="card-body">
-          <h5 class="card-title">Produto</h5>
+          <h5 class="card-title">Camiseta Conforto</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.
           </p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <p>R$ 70,00</p>
+          <a href="#" class="btn btn-primary btn-products rounded-0 border-0">Ver mais</a>
         </div>
       </div>
     </div>
@@ -221,13 +218,12 @@
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
         <div class="card-body">
-          <h5 class="card-title">Produto</h5>
+          <h5 class="card-title">Calça Alfaiataria</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!
           </p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <p>R$ 180,00</p>
+          <a href="#" class="btn btn-primary btn-products rounded-0 border-0">Ver mais</a>
         </div>
       </div>
     </div>
@@ -242,13 +238,12 @@
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
         <div class="card-body">
-          <h5 class="card-title">Produto</h5>
+          <h5 class="card-title">Tênis Chunky</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.
           </p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <p>R$ 250,00</p>
+          <a href="#" class="btn btn-primary btn-products rounded-0 border-0">Ver mais</a>
         </div>
       </div>
     </div>
@@ -262,13 +257,12 @@
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
         <div class="card-body">
-          <h5 class="card-title">Produto</h5>
+          <h5 class="card-title">Jaqueta Jeans</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Modelo unissex oversized com gola de camurça. Atemporal e autêntica!
           </p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <p>R$ 150,00</p>
+          <a href="#" class="btn btn-primary btn-products rounded-0 border-0">Ver mais</a>
         </div>
       </div>
     </div>
@@ -282,13 +276,12 @@
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
         <div class="card-body">
-          <h5 class="card-title">Produto</h5>
+          <h5 class="card-title">Óculos Redondo</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Armação metálica em grafite com lentes arredondadas. Sem erro!
           </p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <p>R$ 120,00</p>
+          <a href="#" class="btn btn-primary btn-products rounded-0 border-0">Ver mais</a>
         </div>
       </div>
     </div>
@@ -302,56 +295,58 @@
           <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
         </svg>
         <div class="card-body">
-          <h5 class="card-title">Produto</h5>
+          <h5 class="card-title">Bolsa coringa</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!
           </p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <p>R$ 120,00</p>
+          <a href="#" class="btn btn-primary btn-products rounded-0 border-0">Ver mais</a>
         </div>
       </div>
     </div>
   </div>
 
-  <section class="pb-4">
+  <section class="pb-4 bg-black text-bg-dark">
     <h2 class="text-center">Conheça todas as nossa facilidades</h2>
     <div class="d-flex flex-column align-items-center gap-3 flex-lg-row justify-content-center">
       <div class="facilities d-flex">
-        <div><i class="bi bi-x-diamond fs-1"></i></div>
+        <div class="icon"><i class="bi bi-x-diamond fs-1"></i></div>
         <div>
-          <div class="ms-3 mb1">PAGUE PELO PIX</div>
+          <div class="ms-3 mb1 icon-info">PAGUE PELO PIX</div>
           <div class="text6 ms-3">Ganhe 5% OFF em pagamentos via PIX</div>
         </div>
       </div>
       <div class="facilities d-flex">
-        <div><i class="bi bi-arrow-repeat fs-1"></i></div>
+        <div class="icon"><i class="bi bi-arrow-repeat fs-1"></i></div>
         <div>
-          <div class="ms-3 mb1">TROCA GRÁTIS</div>
+          <div class="ms-3 mb1 icon-info">TROCA GRÁTIS</div>
           <div class="text6 ms-3">Fique livre para trocar em até 30 dias.</div>
         </div>
       </div>
       <div class="facilities d-flex">
-        <div><i class="bi bi-flower1 fs-1"></i></div>
+        <div class="icon"><i class="bi bi-flower1 fs-1"></i></div>
         <div>
-          <div class="ms-3 mb1">SUSTENTABILIDADE</div>
+          <div class="ms-3 mb1 icon-info">SUSTENTABILIDADE</div>
           <div class="text6 ms-3">Moda responsável, que respeita o meio ambiente.</div>
         </div>
       </div>
     </div>
   </section>
 
-  <form class="border border-secondary m-3 p-3 text-center">
-    <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
-  <div class="input-group my-3">
-    <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail" aria-label="Digite ser e-mail" aria-describedby="button-addon2">
-    <button type="button" id="button-addon2">Enviar</button>
-  </div>
-</form>
+  <form class="border border-secondary my-3 my-xl-5 p-3 text-center">
+    <h5">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+    <div class="input-group my-3">
+      <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
+        aria-label="Digite ser e-mail" aria-describedby="button-addon2">
+      <button type="button" class="btn-submit text-light" id="button-addon2">Enviar</button>
+    </div>
+  </form>
 
-<footer class="text-center">
-  <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Lena | Projeto fictício por Alura.</p>
-</footer>
+  <footer class="text-center bg-black text-bg-dark">
+    <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Lena | Projeto fictício por Alura.</p>
+  </footer>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
