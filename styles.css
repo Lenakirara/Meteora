@@ -2,7 +2,8 @@
   font-size: 12px;
 }
 
-.facilities{
+.facilities,
+.form-news{
   width: 325px;
 }
 
@@ -14,4 +15,10 @@
 .icon,
 .icon-info {
   color: #daff01;
+}
+
+@media(min-width: 768px) {
+  .form-news {
+      width: 696px;
+  }
 }
